@@ -174,9 +174,9 @@ M | Design database schema | K | 8
 <br>
 <p><img src="https://github.com/users/CLQuan/projects/2/assets/147676251/ff0cad0e-afb5-4fc8-b0be-1f67d4b2eab8" width="500" height="275"/></p>
 <br>
-Path | Length
+| Path | Length |
 -- | --
-Path 1: A - C - F - G - H - J - K - M - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 |
+| Path 1: A - C - F - G - H - J - K - M - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 |
 
 Path 2: A - C - F - G - H - I - K - M - P - Q - R - S - T - U
 Length: 2 + 1 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 69
