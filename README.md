@@ -93,13 +93,13 @@ Salary | RM 31000 per year
 | Cost | Year 0 | Year 1 | Year 2 | Year 3 |
 | :--- | :--- | :--- | :--- | :--- |
 | Development cost |  |  |  |  |
-| &emsp;&emsp;Hardware | 11000 | - | - | - |
-| &emsp;&emsp;Software development | 16500 | - | - | - |
-| &emsp;&emsp;Total | 27500 | - | - | - |
+| &emsp;&emsp;Hardware | 11000 |-|-|-|
+| &emsp;&emsp;Software development | 16500 |-|-|-|
+| &emsp;&emsp;Total | 27500 |-|-|-|
 | Production Cost |  |  |  |  |
-| &emsp;&emsp;Advertisement | - | 3300 | 3465 | 3638 |
-| &emsp;&emsp;Salary | - | 6600 | 6930 | 7277 |
-| &emsp;&emsp;Maintenance | - | 34100 | 35805 | 37595 |
+| &emsp;&emsp;Advertisement |-| 3300 | 3465 | 3638 |
+| &emsp;&emsp;Salary |-| 6600 | 6930 | 7277 |
+| &emsp;&emsp;Maintenance |-| 34100 | 35805 | 37595 |
 | Annual Production Cost <br> (Present Value) |  | 44000<br> 44000 | 46200<br> 46200 | 48510<br> 48510 |
 | Accumulated Cost |  | 62000 | 100182 | 136628 |
 
@@ -148,7 +148,7 @@ The system will need the customers to fill in their phone number and name for ke
 
 <!---html--->
 <!---body--->
-<!--StartFragment--><b style="font-weight:normal;" id="docs-internal-guid-1801b86b-7fff-d2a4-0c74-3bb77470954b"><div dir="ltr" style="margin-left:0pt;" align="left">
+<!--StartFragment--><b style="font-weight:normal;" id="docs-internal-guid-1801b86B -7fff-d2a4-0c74-3bb77470954b"><div dir="ltr" style="margin-left:0pt;" align="left">
 
 ### PERT Chart
 Activity | Predecessor | Duration (day)
@@ -174,12 +174,42 @@ M | Design database schema | K | 8
 <br>
 <p><img src="https://github.com/users/CLQuan/projects/2/assets/147676251/ff0cad0e-afb5-4fc8-b0be-1f67d4b2eab8" width="500" height="275"/></p>
 <br>
-| Path | Length |
-| --- | --- |
-| Path 1: A - C - F - G - H - J - K - M - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 | Path 2: A - C - F - G - H - I - K - M - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 69 | Path 3: A - C - F - G - H - J - K - O - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 | Path 4: A - C - F - G - H - I - K - O - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 81 | Path 5: A - C - F - G - L - N - O - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 | Path 6: A - E - F - G - H - J - K - M - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 71 | Path 7: A - E - F - G - H - J - K - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 | Path 8: A - E - F - G - H - I - K - M - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 | Path 9: A - E - F - G - H - I - K - O - P - Q - R - S - T - Ub| Length: 2 + 2 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 | Path 10: A - E - F - G - L - N - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 84 | Path 11: A - D - F - G - H - J - K - M - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 71 | Path 12: A - D - F - G - H - J - K - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 | Path 13: A - D - F - G - H - I - K - M - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 | Path 14: A - D - F - G - H - I - K - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 | Path 15: A - D - F - G - L - N - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 84 | Path 16: B - C - F - G - H - J - K - M - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 | Path 17: B - C - F - G - H - J - K - O - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 | Path 18: B - C - F - G - H - I - K - M - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 69 | Path 19: B - C - F - G - H - I - K - O - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 81 | Path 20: B - C - F - G - L - N - O - P - Q - R - S - T - U | Length: 2 + 1 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 | Path 21: B - E - F - G - H - J - K - M - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 71 | Path 22: B - E - F - G - H - J - K - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 | Path 23: B - E - F - G - H - I - K - M - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 | Path 24: B - E - F - G - H - I - K - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 | Path 25: B - E - F - G - L - N - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 84 | Path 26: B - D - F - G - H - J - K - M - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 71 | Path 27: B - D - F - G - H - J - K - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 | Path 28: B - D - F - G - H - I - K - M - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 | Path 29: B - D - F - G - H - I - K - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 | Path 30: B - D - F - G - L - N - O - P - Q - R - S - T - U | Length: 2 + 2 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 84 |
+
+| No | Path | Length |
+| --- | --- | :---: |
+| 1 | A -> C -> F -> G -> H -> J -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 |
+| 2 | A -> C -> F -> G -> H -> I -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 69 |
+| 3 | A -> C -> F -> G -> H -> J -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 |
+| 4 | A -> C -> F -> G -> H -> I -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 81 |
+| 5 | A -> C -> F -> G -> L -> N -> O -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 |
+| 6 | A -> E -> F -> G -> H -> J -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 71 |
+| 7 | A -> E -> F -> G -> H -> J -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 |
+| 8 | A -> E -> F -> G -> H -> I -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 |
+| 9 | A -> E -> F -> G -> H -> I -> K -> O -> P -> Q -> R -> S -> T -> Ub|  2 + 2 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 |
+| 10 | A -> E -> F -> G -> L -> N -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 84 |
+| 11 | A -> D -> F -> G -> H -> J -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 71 | 
+| 12 | A -> D -> F -> G -> H -> J -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 |
+| 13 | A -> D -> F -> G -> H -> I -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 |
+| 14 | A -> D -> F -> G -> H -> I -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 |
+| 15 | A -> D -> F -> G -> L -> N -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 84 |
+| 16 | B -> C -> F -> G -> H -> J -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 |
+| 17 | B -> C -> F -> G -> H -> J -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 |
+| 18 | B -> C -> F -> G -> H -> I -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 69 |
+| 19 | B -> C -> F -> G -> H -> I -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 81 |
+| 20 | B -> C -> F -> G -> L -> N -> O -> P -> Q -> R -> S -> T -> U |  2 + 1 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 |
+| 21 | B -> E -> F -> G -> H -> J -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 71 |
+| 22 | B -> E -> F -> G -> H -> J -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 |
+| 23 | B -> E -> F -> G -> H -> I -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 |
+| 24 | B -> E -> F -> G -> H -> I -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 |
+| 25 | B -> E -> F -> G -> L -> N -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 84 |
+| 26 | B -> D -> F -> G -> H -> J -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 5 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 71 |
+| 27 | B -> D -> F -> G -> H -> J -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 5 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 83 |
+| 28 | B -> D -> F -> G -> H -> I -> K -> M -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 4 + 5 + 8 + 10 + 8 + 8 + 4 + 6 + 3 = 70 |
+| 29 | B -> D -> F -> G -> H -> I -> K -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 3 + 4 + 5 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 82 |
+| 30 | B -> D -> F -> G -> L -> N -> O -> P -> Q -> R -> S -> T -> U |  2 + 2 + 4 + 3 + 4 + 10 + 20 + 10 + 8 + 8 + 4 + 6 + 3 = 84 |
 
 
-Since the critical path is the longest path through the network diagram, Path 10, Path 15, Path 25 and Path 30 are the critical paths for this project with a combined duration of 84 days.
+Since the critical is the longest through the network diagram, 10, 15, 25 and 30 are the critical paths for this project with a combined duration of 84 days.
 
 ### Gantt Chart
 <p><img src="https://github.com/users/CLQuan/projects/2/assets/147676251/60040ef4-5391-4911-ac68-549efa5f7331" width="500" height="275"/></p>
